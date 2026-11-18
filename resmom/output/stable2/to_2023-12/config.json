@@ -1,0 +1,79 @@
+{
+  "step1": {
+    "end": "2023-12",
+    "open_holdout": false,
+    "big_cap": 10000000000.0,
+    "pct": 0.1,
+    "lags": 3,
+    "fee": 0.001425,
+    "fee_discount": 0.2,
+    "tax": 0.003,
+    "spread_ticks": 0.5,
+    "borrow": 0.03,
+    "impact_k": 1.0,
+    "delist_long": -0.3,
+    "delist_short": 0.0,
+    "merger_exit": 0.0,
+    "reversal_skip": 1,
+    "reversal_main": "raw",
+    "missing_rank": 0.5,
+    "min_factors": 3,
+    "ic_horizons": 6,
+    "ic_min_months": 36,
+    "ic_window": null,
+    "n": 30,
+    "gamma": 1.0,
+    "adv_floor": 30000000.0,
+    "max_adv_share": 0.2,
+    "max_industry": 0.3
+  },
+  "stable": {
+    "start": "2009-07",
+    "lev_worst": 0.2,
+    "top": 0.5,
+    "window": 252,
+    "min_days": 200,
+    "stock_cap": 0.05,
+    "industry_cap": 0.2,
+    "rebalance": null,
+    "bond_lo": 10,
+    "bond_hi": 30,
+    "bond_cost": 0.001,
+    "fx_cost_mult": 1.0,
+    "bond_start": "2008-01",
+    "stock_weight": 0.7,
+    "ret_gap": -0.02,
+    "dd_mult": 0.7,
+    "cap": 1.0,
+    "dd_limit": 0.2,
+    "vol_windows": [
+      20,
+      60,
+      120
+    ],
+    "mc_draws": 10000,
+    "seed": 20261118
+  },
+  "round2": {
+    "stock_hi": 0.7,
+    "stock_lo": 0.4,
+    "ma_days": 200,
+    "keep_top": 0.7,
+    "quarter_months": [
+      3,
+      6,
+      9,
+      12
+    ],
+    "short_ladder": [
+      0,
+      3
+    ],
+    "long_ladder": [
+      10,
+      30
+    ],
+    "pick_margin": 0.05
+  },
+  "mc_block_months": 6
+}

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.log
+*.parquet
+resmom_tw/data/
+resmom/cache/
+.pytest_cache/

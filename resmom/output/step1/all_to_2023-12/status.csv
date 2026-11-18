@@ -1,0 +1,15 @@
+﻿item,built,note
+resmom,True,
+mom,True,
+lowvol,True,
+lowvol_resid,True,
+high52,True,
+turnover_abn,True,
+turnover_low,True,
+reversal,True,
+revenue,True,
+earnings,True,
+value,True,
+quality,True,
+flows,True,
+fcf_ev,False,not built: the capital-expenditure field differs by company and period
